@@ -8,10 +8,9 @@
 	eval "$(pyenv init -)"
 ### update pyenv
 	$ pyenv update
-
 ### install version python
 	$ pyenv install 3.12.1
-
+### create virtual env
 	$ ~/.pyenv/versions/3.12.1/bin/python3.12 -m venv ~/projects/milkshakelab
 
 	$ cd ~/projects/milkshakelab
@@ -19,3 +18,6 @@
 	$ pip install --upgrade pip
 	$ pip install scrapy
 	$ deactivate
+### clone repository
+	$ cd ~/projects/milkshakelab
+	$ git clone git@github.com:willtrigo/milkshakelab_scraping.git
