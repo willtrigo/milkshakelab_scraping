@@ -11,13 +11,13 @@
 ### install version python
 	$ pyenv install 3.12.1
 ### create virtual env
-	$ ~/.pyenv/versions/3.12.1/bin/python3.12 -m venv ~/projects/milkshakelab
+	$ ~/.pyenv/versions/3.12.1/bin/python3.12 -m venv ~/projects/milkyshakylab
 
-	$ cd ~/projects/milkshakelab
+	$ cd ~/projects/milkyshakylab
 	$ source bin/activate
 	$ pip install --upgrade pip
 	$ pip install scrapy
 	$ deactivate
 ### clone repository
-	$ cd ~/projects/milkshakelab
-	$ git clone git@github.com:willtrigo/milkshakelab_scraping.git
+	$ cd ~/projects/milkyshakylab
+	$ git clone git@github.com:willtrigo/milky_shaky_lab_web_scraping.git
