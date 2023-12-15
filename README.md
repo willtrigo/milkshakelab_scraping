@@ -1,4 +1,4 @@
-# milkshakelab web scraping
+# Milky Shaky LAB - web scraping
 
 ### install pyenv.
 	$ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
